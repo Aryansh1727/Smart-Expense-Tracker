@@ -103,7 +103,7 @@ Add screenshots of your application to the `screenshots/` folder and display the
 
 ### Monthly Budgets
 
-![Monthly Budgets](screenshots/budgets.png)
+![Monthly Budgets](screenshots/budget.png)
 
 ## 📚 Concepts Demonstrated
 
