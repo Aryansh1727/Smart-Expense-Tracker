@@ -1,0 +1,31 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+
+# Personal financial data
+data/*.json
+data/*.csv
+data/*.tmp
+
+# Preserve the empty data folder
+!data/.gitkeep
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
