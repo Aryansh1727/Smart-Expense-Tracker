@@ -1,26 +1,33 @@
 # 💰 Smart Expense Tracker
 
-A simple and interactive **Smart Expense Tracker** built using Python and Streamlit. This application helps users manage their income and expenses, monitor their spending habits, set monthly budgets, and visualize their financial activities through charts.
+[![🚀 Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_App-8A2BE2?style=for-the-badge)](https://smart-expense-tracker-aryan.streamlit.app/)
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-View_Source-181717?style=for-the-badge&logo=github)](https://github.com/Aryansh1727/Smart-Expense-Tracker)
+
+A Python-based personal finance management web application built using **Streamlit**. It helps users track income and expenses, manage monthly budgets, analyze spending patterns, and visualize financial data through an interactive dashboard.
 
 ## ✨ Features
 
-- **Dashboard:** View your financial summary, including income, expenses, savings, and balance.
-- **Add Transactions:** Record income and expenses with details such as amount, category, date, and description.
-- **Manage Transactions:** Edit and delete existing transactions.
-- **Transaction History:** View, search, and filter transactions.
-- **Data Visualization:** Analyze spending patterns through interactive charts.
-- **Monthly Budgets:** Set category-wise budgets and monitor spending.
+- **Dashboard:** View balance, income, expenses, savings, charts, and recent transactions.
+- **Add Transactions:** Record income and expenses with amount, category, date, and description.
+- **Edit and Delete:** Update or remove existing transactions.
+- **Transaction History:** Search, filter, and sort transaction records.
+- **Budget Tracking:** Set category-wise monthly budgets and monitor spending.
+- **Interactive Charts:** Visualize financial activity using Plotly.
 - **CSV Export:** Export transaction records for further analysis.
-- **Data Persistence:** Store application data locally using JSON files.
-- **Interactive UI:** Dark-themed interface with purple accents and visual effects.
+- **Local Data Storage:** Store application data using JSON files during local use.
+- **Modern UI:** Dark theme with purple accents and interactive dashboard elements.
 
 ## 🛠️ Technologies Used
 
-- **Python** — Application logic
-- **Streamlit** — Web application interface
-- **Pandas** — Data handling and analysis
-- **Plotly** — Interactive charts
-- **JSON** — Local data storage
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- JSON
+- CSV
+- Git and GitHub
+- Streamlit Community Cloud
 
 ## 📁 Project Structure
 
@@ -48,10 +55,8 @@ Smart-Expense-Tracker/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Smart-Expense-Tracker.git
+git clone https://github.com/Aryansh1727/Smart-Expense-Tracker.git
 ```
-
-Replace `YOUR-USERNAME` with your GitHub username.
 
 ### 2. Open the Project Folder
 
@@ -67,7 +72,7 @@ python -m venv .venv
 
 Activate it on Windows:
 
-```bash
+```powershell
 .venv\Scripts\activate
 ```
 
@@ -83,11 +88,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application will open in your web browser.
+The application will open in your browser. If it doesn't open automatically, use the local URL displayed in the terminal.
 
 ## 📸 Screenshots
-
-Add screenshots of your application to the `screenshots/` folder and display them here.
 
 ### Dashboard
 
@@ -105,35 +108,45 @@ Add screenshots of your application to the `screenshots/` folder and display the
 
 ![Monthly Budgets](screenshots/budget.png)
 
-## 📚 Concepts Demonstrated
+## 🧠 Python Concepts Implemented
 
-- Python functions and modules
-- Data management using JSON
+- Functions and modular programming
+- Variables and data types
+- Conditional statements and loops
+- Lists and dictionaries
+- File handling using JSON and CSV
+- Input validation and error handling where implemented
 - CRUD operations (Create, Read, Update, Delete)
-- Data analysis using Pandas
-- Interactive data visualization
-- Streamlit application development
-- CSV file handling
-- Input validation and error handling
+- Use of external Python libraries
 
 ## 🔒 Data Privacy
 
-The application stores transaction and budget data locally. Personal financial data files should not be uploaded to a public GitHub repository.
+The application uses local JSON files for data persistence during local use. The `.gitignore` file excludes local data files, environment files, Python cache files, and virtual environments from Git tracking.
+
+**Important:** The live application is intended as a demonstration. Avoid entering real or sensitive financial information. Local file storage on a hosted platform may not persist across restarts or redeployments.
 
 ## 🔮 Future Improvements
 
-- User authentication
-- Database integration
-- Recurring transaction support
-- Downloadable financial reports
-- Advanced spending analytics
+- Database integration using SQLite or PostgreSQL
+- User authentication and individual accounts
+- Recurring transactions and reminders
+- Downloadable monthly and yearly reports
+- Savings goals and advanced spending analytics
+- Automated testing
 
 ## 👨‍💻 Project Information
 
-**Project:** Smart Expense Tracker  
-**Category:** Python Programming  
-**Purpose:** Internship Week 6 Assignment
+- **Project Name:** Smart Expense Tracker
+- **Project Type:** Python Web Application
+- **Internship Domain:** Python Programming
+- **Internship Provider:** InternNova
+- **Assignment:** Week 6 Project
+
+## 🔗 Project Links
+
+- **Live Demo:** https://smart-expense-tracker-aryan.streamlit.app/
+- **GitHub Repository:** https://github.com/Aryansh1727/Smart-Expense-Tracker
 
 ---
 
-⭐ If you find this project useful, consider giving the repository a star.
+Developed as part of the Python Programming internship project.
