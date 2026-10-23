@@ -139,8 +139,6 @@ The application uses local JSON files for data persistence during local use. The
 - **Project Name:** Smart Expense Tracker
 - **Project Type:** Python Web Application
 - **Internship Domain:** Python Programming
-- **Internship Provider:** InternNova
-- **Assignment:** Week 6 Project
 
 ## 🔗 Project Links
 
