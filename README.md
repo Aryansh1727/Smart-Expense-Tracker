@@ -1,6 +1,6 @@
 # 💰 Smart Expense Tracker
 
-[![🚀 Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_App-8A2BE2?style=for-the-badge)](https://smart-expense-tracker-aryan.streamlit.app/) [![GitHub Repository](https://img.shields.io/badge/GitHub-View_Source-181717?style=for-the-badge&logo=github)](https://github.com/Aryansh1727/Smart-Expense-Tracker)
+[![🚀 Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_App-8A2BE2?style=for-the-badge)](https://smart-expense-tracker-aryan.streamlit.app/)             [![GitHub Repository](https://img.shields.io/badge/GitHub-View_Source-181717?style=for-the-badge&logo=github)](https://github.com/Aryansh1727/Smart-Expense-Tracker)
 
 A Python-based personal finance management web application built using **Streamlit**. It helps users track income and expenses, manage monthly budgets, analyze spending patterns, and visualize financial data through an interactive dashboard.
 
